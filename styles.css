@@ -1,0 +1,254 @@
+* {
+    padding: 0%;
+    margin: 0%;
+}
+
+
+body {
+    background-color: #eff2f5;
+}
+
+h2 {
+    font-weight: 500;
+    margin-top: -30px;
+    font-size: 27px;
+    width: 420px;
+}
+
+h6 {
+    font-size: medium;
+    font-weight: 500;
+    color: #5f6770;
+    font-family: SFProText-Regular, Helvetica, Arial, sans-serif;
+}
+
+p {
+    color: #5f6770;
+    font-size: 11px;
+    margin-top: 12px;
+    color: #777777;
+
+}
+
+img {
+    width: 250px;
+    padding: -1px;
+}
+
+footer a {
+    color: #000;
+    text-decoration: none;
+    font-weight: 550;
+}
+
+footer {
+    text-align: center;
+    margin: 20px;
+    font-size: small;
+}
+
+hr {
+    border-bottom-color: #dadde1;
+    border-top: 0;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.head-section {
+    width: 400px;
+    float: left;
+    margin-top: 151px;
+}
+
+
+.parent-container {
+    height: 500px;
+    width: 980px;
+    position: relative;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, 0%);
+}
+
+.all-content {
+    width: 410px;
+    position: absolute;
+    right: 0px;
+    top: 115px;
+}
+
+
+.container {
+    background-color: #fff;
+    width: 350px;
+    padding: 20px;
+    border-radius: 7px;
+    box-shadow: 10px 10px 10px 10px #ececee;
+
+}
+
+::placeholder {
+    color: #8c949e;
+    font-size: medium;
+}
+
+.content-inside {
+    box-sizing: border-box;
+    display: block;
+    border-radius: 5px;
+    padding: 18px;
+    width: 350px;
+    border: 1px solid #dcdfe2;
+    margin-bottom: 10px;
+    font-size: 16px;
+
+}
+
+.btn {
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: #fff;
+    border: 0px;
+    border-radius: 5px;
+    padding: 15px;
+    font-weight: bold;
+
+}
+
+.login {
+    background-color: #1977f2;
+    width: 350px;
+    font-size: large;
+
+}
+
+.create {
+    background-color: #42b829;
+    margin-left: 90px;
+    margin-top: 30px;
+    font-size: medium;
+
+
+}
+
+.forgot {
+
+    font-size: small;
+    color: #1977f2;
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    margin: 15px;
+}
+
+.create-account {
+    position: absolute;
+    left: 50%;
+    top: 10%;
+    transform: translate(-50%, 0%);
+    background-color: #fff;
+    width: 420px;
+    padding: -1px 13px;
+    height: 555px;
+    border-radius: 8px;
+    box-shadow: 0 0 8px 8px #ececed;
+}
+
+/* transparent div */
+.transparent-div {
+    background-color: rgba(255, 255, 255, 0.66);
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0%;
+}
+
+
+
+
+.holder {
+    padding: 12px;
+    margin: 5px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: 1px solid #ccd0d4;
+    background-color: #f4f6f7;
+}
+
+.long {
+    display: block;
+    width: 388px;
+    margin-bottom: 10px;
+}
+
+.short {
+    display: inline-block;
+    width: 187px;
+
+}
+
+
+label[for=signup] {
+    font-weight: bolder;
+    font-size: xx-large;
+}
+
+label[for=Birthday],
+label[for=gender] {
+    font-size: small;
+    display: block;
+}
+
+select {
+    width: 126px;
+    padding: 7px;
+    margin-top: 7px;
+    margin-bottom: 7px;
+    border-color: #ccd0d4;
+}
+
+.signupbtn {
+    background-color: #02a501;
+    border: none;
+    padding: 8px;
+    color: white;
+    border-radius: 5px;
+    width: 200px;
+    font-size: larger;
+    margin-top: 20px;
+    margin-left: 95px;
+
+}
+
+
+.gen {
+    padding: 8px;
+    width: 126px;
+    background-color: white;
+    margin-top: 7px;
+    border: 1px solid #ccd0d4;
+    border-radius: 3px;
+}
+
+input[type=radio] {
+    margin-left: 43px;
+}
+
+.fa-sharp {
+    float: right;
+    font-size: 22px;
+}
+
+.top {
+    padding: 17px;
+    padding-bottom: 2px;
+}
+
+.content-body {
+    padding: 10px;
+}

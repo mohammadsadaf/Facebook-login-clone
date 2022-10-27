@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facebook - log in or sign up</title>
+    <!-- favicon -->
+    <link rel="icon" type="image/x-icon" href="/images/favicon.png">
+    <!-- font awsome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="parent-container">
+        <div class="head-section">
+            <img src="images/Facebook-Logo.png" alt="Facebook-Logo">
+            <h2>Connect with friends and the world around you on Facebook.</h2>
+        </div>
+        <div class="all-content">
+            <div class="container">
+                <form>
+                    <input type="text" class="content-inside" placeholder="Email or phone number">
+                    <input type="password" class="content-inside" placeholder="Password">
+                    <button type="submit" class="btn login">Log in</button>
+                    <a href="#" class="forgot">Forgot password?</a>
+                    <hr>
+                    <button type="submit" class="btn create">Create new account</button>
+
+                </form>
+            </div>
+            <footer>
+                <a href="#">Create a page</a>
+                for a celebrity, brand or business.
+            </footer>
+        </div>
+    </div>
+    <!-- Create account page -->
+    <div class="transparent-div">
+        <div class="create-account">
+            <form>
+
+                <div class="top">
+
+                    <label for="signup" class="Signup">Sign Up<i class="fa-sharp fa-solid fa-xmark"></i></label>
+                    <h6>Its quick and easy.</h6>
+                </div>
+                <hr>
+                <div class="content-body">
+                    <input type="text" class="holder short" placeholder="First name">
+                    <input type="text" class="holder short" placeholder="Last name">
+                    <input type="text" class="holder long" placeholder="Mobile number or email">
+                    <input type="text" class="holder long" placeholder="New password">
+                    <div class="div" style="margin-left: 5px;">
+                        <label for="Birthday">Birthday <i class="fa-solid fa-circle-question"
+                                style="color: #5f6770;"></i></label>
+                        <!-- drop down for months -->
+                        <select name="months">
+                            <option value="1">Jan</option>
+                            <option value="2">Feb</option>
+                            <option value="3">Mar</option>
+                            <option value="4">Apr</option>
+                            <option value="5">May</option>
+                            <option value="6">Jun</option>
+                            <option value="7">Jul</option>
+                            <option value="8">Aug</option>
+                            <option value="9">Sep</option>
+                            <option value="10">Oct</option>
+                            <option value="11">Nov</option>
+                            <option value="12">Dec</option>
+                        </select>
+                        <!-- drop down for days -->
+                        <select name="Days">
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                            <option value="8">8</option>
+                            <option value="9">9</option>
+                            <option value="10">10</option>
+                            <option value="11">11</option>
+                            <option value="12">12</option>
+                            <option value="13">13</option>
+                            <option value="14">14</option>
+                            <option value="15">15</option>
+                            <option value="16">16</option>
+                            <option value="17">17</option>
+                            <option value="18">18</option>
+                            <option value="19">19</option>
+                            <option value="20">20</option>
+                            <option value="21">21</option>
+                            <option value="22">22</option>
+                            <option value="23">23</option>
+                            <option value="24">24</option>
+                            <option value="25">25</option>
+                            <option value="26">26</option>
+                            <option value="27">27</option>
+                            <option value="28">28</option>
+                            <option value="29">29</option>
+                            <option value="30">30</option>
+                            <option value="31">31</option>
+                        </select>
+                        <!-- for years -->
+                        <select name="years">
+                            <option>2022</option>
+                            <option>2021</option>
+                            <option>2020</option>
+                            <option>2019</option>
+                            <option>2018</option>
+                            <option>2017</option>
+                            <option>2016</option>
+                            <option>2015</option>
+                            <option>2014</option>
+                            <option>2013</option>
+                            <option>2012</option>
+                            <option>2011</option>
+
+                        </select>
+                        <br>
+                        <label for="gender">Gender <i class="fa-solid fa-circle-question"
+                                style="color: #5f6770;"></i></label>
+                        <Button class=" gen"> Female <input type="radio" name="Female"></Button>
+                        <Button class="gen"> Male <input type="radio" name="Male"></Button>
+                        <button class="gen">Custom <input type="radio" name="Custom"></button>
+
+                        <p>People who use our service may have uploaded your contact information to
+                            Facebook. Learn more.</p>
+                        <br>
+                        <p> By clicking Sign Up, you agree to our Terms, Privacy Policy and Cookies Policy. You may
+                            receive SMS
+                            Notifications from us and can opt out any time.</p>
+                    </div>
+                    <button class="signupbtn">Sign up</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
